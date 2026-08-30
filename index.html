@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lucas Martins — Portfólio</title>
+  <meta name="description" content="Portfólio profissional de Lucas Martins — Desenvolvedor de Software Back-End especializado em C#, .NET e Google Cloud Platform.">
+  <meta name="theme-color" content="#0061A4">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%230061A4'/%3E%3Ctext x='50' y='68' font-size='58' font-family='Arial, sans-serif' fill='white' text-anchor='middle'%3ELM%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header / Navegação -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="#hero" class="logo">LM<span class="logo-dot">.</span></a>
+
+      <nav class="nav" id="nav">
+        <ul class="nav-list">
+          <li><a href="#sobre" class="nav-link">Sobre</a></li>
+          <li><a href="#experiencia" class="nav-link">Experiência</a></li>
+          <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+          <li><a href="#formacao" class="nav-link">Formação</a></li>
+          <li><a href="#projetos" class="nav-link">Projetos</a></li>
+          <li><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" id="theme-toggle" aria-label="Alternar tema claro/escuro" title="Alternar tema">
+          <span class="material-symbols-outlined" id="theme-icon">dark_mode</span>
+        </button>
+        <button class="icon-btn nav-toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+          <span class="material-symbols-outlined">menu</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero / Sobre -->
+    <section id="hero" class="hero reveal">
+      <div class="container hero-inner">
+        <div class="avatar-circle" aria-hidden="true">LM</div>
+        <p class="hero-eyebrow">Olá, eu sou</p>
+        <h1 class="hero-name">Lucas Martins</h1>
+        <h2 class="hero-role">Desenvolvedor de Software Back-End | C# | .NET</h2>
+        <p class="hero-summary">
+          Desenvolvedor Back-end com mais de 10 anos de experiência na construção de
+          soluções escaláveis e robustas, com foco em .NET, C# e Google Cloud Platform (GCP).
+        </p>
+        <div class="hero-actions">
+          <a href="assets/docs/curriculo.pdf" class="btn btn-filled" download>
+            <span class="material-symbols-outlined">download</span>
+            Baixar Currículo
+          </a>
+          <a href="#contato" class="btn btn-outlined">
+            <span class="material-symbols-outlined">mail</span>
+            Entrar em Contato
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre mim -->
+    <section id="sobre" class="section reveal">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="material-symbols-outlined section-icon">person</span>
+          Sobre mim
+        </h2>
+        <div class="card about-card">
+          <p>
+            Desenvolvedor Back-end com 10+ anos de experiência em construção de soluções
+            back-end escaláveis e robustas. Experiência em design e desenvolvimento de APIs
+            RESTful utilizando .NET C#, MongoDB, Bigtable, Redis e pub/sub. Habilidade em
+            implementar arquiteturas de microsserviços e aplicar padrões de design.
+            Conhecedor de tecnologias de nuvem (GCP), containerização (Docker) e computação
+            sem servidor (Cloud Function e Cloud Run). Apaixonado por otimização de
+            desempenho de aplicações e garantia de integridade de dados. Inglês
+            intermediário (cursando).
+          </p>
+          <p class="about-location">
+            <span class="material-symbols-outlined">location_on</span>
+            Campinas, São Paulo, Brasil
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experiência Profissional -->
+    <section id="experiencia" class="section reveal">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="material-symbols-outlined section-icon">work</span>
+          Experiência Profissional
+        </h2>
+
+        <ol class="timeline">
+
+          <!-- TAG IMF -->
+          <li class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="card timeline-card">
+              <div class="timeline-card-header">
+                <h3>TAG IMF</h3>
+                <span class="timeline-period">abr 2020 — Atual · 6 anos 5 meses</span>
+              </div>
+
+              <div class="role-block">
+                <div class="role-header">
+                  <h4>Analista de Desenvolvimento de Software Back-End</h4>
+                  <span class="role-period">fev 2026 — Atual (7 meses)</span>
+                </div>
+                <span class="role-location">São Paulo, SP</span>
+                <p class="role-desc">
+                  Desenvolvedor .NET / ASP.NET (8.0) atuando na manutenção e desenvolvimento
+                  de novas funcionalidades.
+                </p>
+                <div class="chip-group">
+                  <span class="chip chip-small">C#</span>
+                  <span class="chip chip-small">.NET</span>
+                  <span class="chip chip-small">ASP.NET</span>
+                  <span class="chip chip-small">Pub/Sub</span>
+                  <span class="chip chip-small">BigTable</span>
+                  <span class="chip chip-small">MongoDB</span>
+                  <span class="chip chip-small">Datadog</span>
+                  <span class="chip chip-small">Git</span>
+                </div>
+              </div>
+
+              <div class="role-block">
+                <div class="role-header">
+                  <h4>Líder Técnico Back-End</h4>
+                  <span class="role-period">abr 2025 — jan 2026 (10 meses)</span>
+                </div>
+                <span class="role-location">Campinas, São Paulo, Brasil</span>
+              </div>
+
+              <div class="role-block">
+                <div class="role-header">
+                  <h4>Analista de Desenvolvimento de Software Back-End</h4>
+                  <span class="role-period">nov 2022 — mar 2025 (2 anos 5 meses)</span>
+                </div>
+                <span class="role-location">São Paulo, Brasil</span>
+                <p class="role-desc">
+                  Desenvolvedor .NET / ASP.NET (8.0) atuando na manutenção e desenvolvimento
+                  de novas funcionalidades.
+                </p>
+                <div class="chip-group">
+                  <span class="chip chip-small">C#</span>
+                  <span class="chip chip-small">.NET</span>
+                  <span class="chip chip-small">ASP.NET</span>
+                  <span class="chip chip-small">Pub/Sub</span>
+                  <span class="chip chip-small">BigTable</span>
+                  <span class="chip chip-small">MongoDB</span>
+                  <span class="chip chip-small">Datadog</span>
+                  <span class="chip chip-small">Git</span>
+                </div>
+              </div>
+
+              <div class="role-block">
+                <div class="role-header">
+                  <h4>Líder Técnico Full Stack</h4>
+                  <span class="role-period">jun 2021 — nov 2022 (1 ano 6 meses)</span>
+                </div>
+                <span class="role-location">São Paulo, Brasil</span>
+                <p class="role-desc">Líder técnico do time de back-end-for-front-end.</p>
+              </div>
+
+              <div class="role-block">
+                <div class="role-header">
+                  <h4>Analista de Desenvolvimento de Software Full Stack</h4>
+                  <span class="role-period">abr 2020 — jun 2021 (1 ano 3 meses)</span>
+                </div>
+                <span class="role-location">Campinas, São Paulo, Brasil</span>
+                <p class="role-desc">
+                  Desenvolvedor .NET / ASP.NET (5.0) atuando na manutenção e desenvolvimento
+                  de novas funcionalidades.
+                </p>
+                <div class="chip-group">
+                  <span class="chip chip-small">C#</span>
+                  <span class="chip chip-small">.NET</span>
+                  <span class="chip chip-small">ASP.NET</span>
+                  <span class="chip chip-small">Angular</span>
+                  <span class="chip chip-small">Kafka</span>
+                  <span class="chip chip-small">Pub/Sub</span>
+                  <span class="chip chip-small">MongoDB</span>
+                  <span class="chip chip-small">BigQuery</span>
+                  <span class="chip chip-small">BigTable</span>
+                  <span class="chip chip-small">PostgreSQL</span>
+                  <span class="chip chip-small">SQL Server</span>
+                  <span class="chip chip-small">Docker</span>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- Transdata -->
+          <li class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="card timeline-card">
+              <div class="timeline-card-header">
+                <h3>Transdata</h3>
+                <span class="timeline-period">mar 2018 — mar 2020 · 2 anos 1 mês</span>
+              </div>
+
+              <div class="role-block">
+                <div class="role-header">
+                  <h4>Analista de Desenvolvimento de Software Full Stack</h4>
+                </div>
+                <span class="role-location">Campinas e Região, Brasil</span>
+                <p class="role-desc">
+                  Desenvolvedor .NET / .NET Core responsável por desenvolver novas
+                  funcionalidades e correções no sistema de monitoramento de frota e
+                  bilhetagem.
+                </p>
+                <div class="chip-group">
+                  <span class="chip chip-small">C#</span>
+                  <span class="chip chip-small">.NET Core</span>
+                  <span class="chip chip-small">React</span>
+                  <span class="chip chip-small">TypeScript</span>
+                  <span class="chip chip-small">Docker</span>
+                  <span class="chip chip-small">Node.js</span>
+                  <span class="chip chip-small">MongoDB</span>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- Total Quality Informática -->
+          <li class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="card timeline-card">
+              <div class="timeline-card-header">
+                <h3>Total Quality Informática</h3>
+                <span class="timeline-period">mai 2016 — fev 2018 · 1 ano 10 meses</span>
+              </div>
+
+              <div class="role-block">
+                <div class="role-header">
+                  <h4>Programador de Sistemas</h4>
+                  <span class="role-period">jul 2017 — fev 2018 (8 meses)</span>
+                </div>
+                <span class="role-location">Campinas e Região, Brasil</span>
+                <p class="role-desc">
+                  Responsável pelo desenvolvimento de novos projetos e correções em Clarion
+                  no sistema desktop de gestão de assistência técnica, além de apoiar a área
+                  de suporte na identificação de falhas e bugs junto aos clientes.
+                </p>
+              </div>
+
+              <div class="role-block">
+                <div class="role-header">
+                  <h4>Estagiário de Desenvolvimento de Software</h4>
+                  <span class="role-period">mai 2016 — jun 2017 (1 ano 2 meses)</span>
+                </div>
+                <span class="role-location">Campinas e Região, Brasil</span>
+                <p class="role-desc">
+                  Auxiliar no desenvolvimento de novos projetos e correções em Clarion no
+                  sistema desktop de gestão de assistência técnica.
+                </p>
+              </div>
+            </div>
+          </li>
+
+          <!-- Huawei -->
+          <li class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="card timeline-card">
+              <div class="timeline-card-header">
+                <h3>Huawei</h3>
+                <span class="timeline-period">ago 2013 — out 2015 · 2 anos 3 meses</span>
+              </div>
+
+              <div class="role-block">
+                <div class="role-header">
+                  <h4>Assistente de Redes Telecom Jr. O&amp;M</h4>
+                </div>
+                <p class="role-desc">
+                  Responsável por liderar operadores no acompanhamento de tickets de falhas
+                  em site — despacho, atualização e fechamento via telefone ou WFM — e por
+                  consultas de informações à gerência e atendimento a solicitações de
+                  clientes por e-mail ou telefone.
+                </p>
+              </div>
+            </div>
+          </li>
+
+          <!-- GE Power Conversion -->
+          <li class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="card timeline-card">
+              <div class="timeline-card-header">
+                <h3>GE Power Conversion</h3>
+                <span class="timeline-period">mai 2011 — mai 2013 · 2 anos 1 mês</span>
+              </div>
+
+              <div class="role-block">
+                <div class="role-header">
+                  <h4>Almoxarife I</h4>
+                  <span class="role-period">mar 2013 — mai 2013 (3 meses)</span>
+                </div>
+                <p class="role-desc">
+                  Responsável pela entrega de EPIs e ferramentas do almoxarifado, conferência
+                  de material recebido e transferência para armazenagem no sistema interno.
+                </p>
+              </div>
+
+              <div class="role-block">
+                <div class="role-header">
+                  <h4>Aprendiz de Auxiliar Administrativo (Patrulheiro)</h4>
+                  <span class="role-period">mai 2011 — mar 2013 (1 ano 11 meses)</span>
+                </div>
+                <p class="role-desc">
+                  Responsável pelo processo de compras do departamento (requisição,
+                  acompanhamento do pedido e lançamento de NF no sistema de pagamento),
+                  cadastro de fornecedores e suporte em eventos internos.
+                </p>
+              </div>
+            </div>
+          </li>
+
+        </ol>
+      </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="section reveal">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="material-symbols-outlined section-icon">psychology</span>
+          Habilidades
+        </h2>
+
+        <div class="skills-grid">
+          <div class="card skill-block">
+            <h3>Linguagens &amp; Back-end</h3>
+            <div class="chip-group">
+              <span class="chip">C#</span>
+              <span class="chip">.NET</span>
+              <span class="chip">ASP.NET</span>
+              <span class="chip">Node.js</span>
+            </div>
+          </div>
+
+          <div class="card skill-block">
+            <h3>Front-end</h3>
+            <div class="chip-group">
+              <span class="chip">Angular</span>
+              <span class="chip">React</span>
+              <span class="chip">TypeScript</span>
+            </div>
+          </div>
+
+          <div class="card skill-block">
+            <h3>Cloud &amp; Serverless</h3>
+            <div class="chip-group">
+              <span class="chip">Google Cloud Platform (GCP)</span>
+              <span class="chip">Cloud Run</span>
+              <span class="chip">Cloud Functions</span>
+              <span class="chip">Docker</span>
+            </div>
+          </div>
+
+          <div class="card skill-block">
+            <h3>Dados &amp; Mensageria</h3>
+            <div class="chip-group">
+              <span class="chip">MongoDB</span>
+              <span class="chip">BigTable</span>
+              <span class="chip">BigQuery</span>
+              <span class="chip">PostgreSQL</span>
+              <span class="chip">SQL Server</span>
+              <span class="chip">Redis</span>
+              <span class="chip">Pub/Sub</span>
+              <span class="chip">Kafka</span>
+            </div>
+          </div>
+
+          <div class="card skill-block">
+            <h3>Ferramentas &amp; DevOps</h3>
+            <div class="chip-group">
+              <span class="chip">Git</span>
+              <span class="chip">GitKraken</span>
+              <span class="chip">Visual Studio / Rider</span>
+              <span class="chip">VS Code</span>
+              <span class="chip">Datadog</span>
+            </div>
+          </div>
+
+          <div class="card skill-block">
+            <h3>Idiomas</h3>
+            <div class="chip-group">
+              <span class="chip">Português (Nativo)</span>
+              <span class="chip">Inglês (Intermediário)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formação -->
+    <section id="formacao" class="section reveal">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="material-symbols-outlined section-icon">school</span>
+          Formação Acadêmica
+        </h2>
+
+        <ol class="timeline">
+          <li class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="card timeline-card">
+              <div class="timeline-card-header">
+                <h3>Pós-graduação Lato Sensu — Arquitetura de Sistemas .NET com Azure</h3>
+                <span class="timeline-period">mar 2024 — fev 2025</span>
+              </div>
+              <p class="timeline-company">FIAP</p>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="card timeline-card">
+              <div class="timeline-card-header">
+                <h3>Ciência da Computação — Tecnologia da Informação</h3>
+                <span class="timeline-period">2013 — 2017</span>
+              </div>
+              <p class="timeline-company">Universidade Paulista</p>
+            </div>
+          </li>
+        </ol>
+
+        <h3 class="subsection-title">Cursos e Certificações</h3>
+        <ul class="cert-list">
+          <li class="card cert-item">
+            <span class="material-symbols-outlined">verified</span>
+            <strong>Curso de API's Nativas no Java</strong>
+          </li>
+          <li class="card cert-item">
+            <span class="material-symbols-outlined">verified</span>
+            <strong>Fundamentos de Arquitetura de Software</strong>
+          </li>
+          <li class="card cert-item">
+            <span class="material-symbols-outlined">verified</span>
+            <strong>Curso de Iniciando com Javascript</strong>
+          </li>
+          <li class="card cert-item">
+            <span class="material-symbols-outlined">verified</span>
+            <strong>Orientação a Objetos com C#</strong>
+          </li>
+          <li class="card cert-item">
+            <span class="material-symbols-outlined">verified</span>
+            <strong>Curso de Javascript Avançado</strong>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos" class="section reveal">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="material-symbols-outlined section-icon">rocket_launch</span>
+          Projetos
+        </h2>
+
+        <div class="projects-grid">
+          <article class="card project-card">
+            <div class="project-thumb" aria-hidden="true">
+              <span class="material-symbols-outlined">code</span>
+            </div>
+            <div class="project-body">
+              <h3>Nome do Projeto</h3>
+              <p>Breve descrição do projeto: o problema que resolve e seu papel nele.</p>
+              <div class="chip-group">
+                <span class="chip chip-small">Tecnologia 1</span>
+                <span class="chip chip-small">Tecnologia 2</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="text-link">
+                  <span class="material-symbols-outlined">open_in_new</span> Demo
+                </a>
+                <a href="#" class="text-link">
+                  <span class="material-symbols-outlined">code_blocks</span> Código
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card project-card">
+            <div class="project-thumb" aria-hidden="true">
+              <span class="material-symbols-outlined">code</span>
+            </div>
+            <div class="project-body">
+              <h3>Nome do Projeto</h3>
+              <p>Breve descrição do projeto: o problema que resolve e seu papel nele.</p>
+              <div class="chip-group">
+                <span class="chip chip-small">Tecnologia 1</span>
+                <span class="chip chip-small">Tecnologia 2</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="text-link">
+                  <span class="material-symbols-outlined">open_in_new</span> Demo
+                </a>
+                <a href="#" class="text-link">
+                  <span class="material-symbols-outlined">code_blocks</span> Código
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card project-card">
+            <div class="project-thumb" aria-hidden="true">
+              <span class="material-symbols-outlined">code</span>
+            </div>
+            <div class="project-body">
+              <h3>Nome do Projeto</h3>
+              <p>Breve descrição do projeto: o problema que resolve e seu papel nele.</p>
+              <div class="chip-group">
+                <span class="chip chip-small">Tecnologia 1</span>
+                <span class="chip chip-small">Tecnologia 2</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="text-link">
+                  <span class="material-symbols-outlined">open_in_new</span> Demo
+                </a>
+                <a href="#" class="text-link">
+                  <span class="material-symbols-outlined">code_blocks</span> Código
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="section reveal">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="material-symbols-outlined section-icon">contact_mail</span>
+          Contato
+        </h2>
+
+        <div class="card contact-card">
+          <p>Vamos conversar? Fique à vontade para entrar em contato pelos canais abaixo.</p>
+          <div class="contact-links">
+            <a href="mailto:luucasmartins@hotmail.com" class="contact-link">
+              <span class="material-symbols-outlined">mail</span>
+              luucasmartins@hotmail.com
+            </a>
+            <a href="https://www.linkedin.com/in/lucasfm95" class="contact-link" target="_blank" rel="noopener">
+              <span class="material-symbols-outlined">link</span>
+              linkedin.com/in/lucasfm95
+            </a>
+            <a href="https://github.com/lucasfm95" class="contact-link" target="_blank" rel="noopener">
+              <span class="material-symbols-outlined">code</span>
+              github.com/lucasfm95
+            </a>
+            <div class="contact-link">
+              <span class="material-symbols-outlined">location_on</span>
+              Campinas, São Paulo, Brasil
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Lucas Martins. Feito com HTML, CSS e JS puro.</p>
+    </div>
+  </footer>
+
+  <button class="fab" id="back-to-top" aria-label="Voltar ao topo">
+    <span class="material-symbols-outlined">arrow_upward</span>
+  </button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
